@@ -5,6 +5,11 @@ import renderingStrategies from "../../rendering-strategies-deep-dive.md?raw";
 import jsFundamentalsDay1 from "../../javascript-fundamentals-day1.md?raw";
 import asyncFundamentals from "../../async-fundamentals-deep-dive.md?raw";
 import dsaArraysStringsHashmaps from "../../dsa-arrays-strings-hashmaps.md?raw";
+import dsaSlidingWindowTwoPointers from "../../dsa-sliding-window-two-pointers.md?raw";
+import dsaBinarySearch from "../../dsa-binary-search.md?raw";
+import dsaTreesBfsDfs from "../../dsa-trees-bfs-dfs.md?raw";
+import dsaStacksQueuesLinkedLists from "../../dsa-stacks-queues-linked-lists.md?raw";
+import systemDesignExercises from "../../system-design-exercises.md?raw";
 import EventLoopVisualizer from "./eventloop/EventLoopVisualizer.jsx";
 
 export const topics = [
@@ -56,6 +61,36 @@ export const topics = [
     label: "1. Arrays, Strings & Hash Maps",
     category: "DSA",
     content: dsaArraysStringsHashmaps,
+  },
+  {
+    id: "dsa-sliding-window-two-pointers",
+    label: "2. Sliding Window & Two Pointers",
+    category: "DSA",
+    content: dsaSlidingWindowTwoPointers,
+  },
+  {
+    id: "dsa-binary-search",
+    label: "3. Binary Search",
+    category: "DSA",
+    content: dsaBinarySearch,
+  },
+  {
+    id: "dsa-trees-bfs-dfs",
+    label: "4. Trees, BFS & DFS",
+    category: "DSA",
+    content: dsaTreesBfsDfs,
+  },
+  {
+    id: "dsa-stacks-queues-linked-lists",
+    label: "5. Stacks, Queues & Linked Lists",
+    category: "DSA",
+    content: dsaStacksQueuesLinkedLists,
+  },
+  {
+    id: "system-design-exercises",
+    label: "4 Exercises",
+    category: "System Design",
+    content: systemDesignExercises,
   },
 ];
 

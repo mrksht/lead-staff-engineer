@@ -65,7 +65,7 @@ export default function App() {
     <div className="app">
       <nav className="sidebar">
         <div className="logo">
-          <div className="logo-title">Frontend Deep Dives</div>
+          <div className="logo-title">Lead/Staff Interview Prep</div>
           <div className="logo-sub">Read the theory, run the code</div>
         </div>
 
